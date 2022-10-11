@@ -11,7 +11,7 @@
 //    Pour les nombres multiples de 3 et 5, affichez uniquement FizzBuzz.
 //    Dans les autres cas le nombre lui-même.
 
-function fizzBuzz(int $a){
+function fizzBuzz(int $a):int|string{
     if($a<1||$a>100){
         return null;
     }
